@@ -35,8 +35,21 @@ class Master extends Component {
         <Content>{this.props.children}</Content>
         <Footer>
           <FooterTab>
-            <Button full>
-              <Text>Footer</Text>
+            <Button vertical>
+              <Icon name="home" />
+              <Text>HOME</Text>
+            </Button>
+            <Button vertical>
+              <Icon name="camera" />
+              <Text>Camera</Text>
+            </Button>
+            <Button vertical active>
+              <Icon active name="navigate" />
+              <Text>Navigate</Text>
+            </Button>
+            <Button vertical>
+              <Icon name="person" />
+              <Text>Profile</Text>
             </Button>
           </FooterTab>
         </Footer>
